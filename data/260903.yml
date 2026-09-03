@@ -1,11 +1,13 @@
 about:
-  description: colorizes kubectl output
+  description:
+  |
+    colorizes kubectl output
   license: MIT
   homepage: 
   head: 2ce3b8b
   archived: true
   latestVersion: v0.0.25
-  collectedAt: 2026-09-03T05:14:34Z
+  collectedAt: 2026-09-03T22:35:43Z
 timeline:
   created: 2020-10-08
   lastCommit: 2022-12-31
@@ -21,7 +23,7 @@ popularity:
 language:
   Go: 126769
   Makefile: 252
-totalLine: 127021
+totalBytes: 127021
 recent:
   last30d:
     since: 2026-08-04
