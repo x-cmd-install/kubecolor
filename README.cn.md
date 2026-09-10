@@ -14,6 +14,17 @@ colorizes kubectl output
 x install kubecolor
 ```
 
+## 代码规模
+
+合计: **3,369** 行代码（覆盖前 5 种语言、共 **47** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 3,292 | 186 | 363 | 40 |
+| Yaml | 68 | 0 | 1 | 5 |
+| Makefile | 9 | 0 | 2 | 1 |
+| Markdown | 0 | 123 | 77 | 1 |
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/hidetatz/kubecolor>
@@ -24,17 +35,6 @@ x install kubecolor
 - **最新版本**: `v0.0.25` (2022-12-31)
 - **最近提交**: 2022-12-31
 - **Release 含资产**: 6 个
-
-## Release 资产
-
-| 资产 | 大小 | 目标平台 |
-|------|-----:|----------|
-| [checksums.txt](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/checksums.txt) | 516 B | `other` |
-| [kubecolor_0.0.25_Darwin_arm64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Darwin_arm64.tar.gz) | 793.4 KiB | `native/darwin/arm64` |
-| [kubecolor_0.0.25_Darwin_x86_64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Darwin_x86_64.tar.gz) | 814.5 KiB | `native/darwin/x64` |
-| [kubecolor_0.0.25_Linux_arm64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Linux_arm64.tar.gz) | 734.5 KiB | `native/linux/arm64` |
-| [kubecolor_0.0.25_Linux_ppc64le.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Linux_ppc64le.tar.gz) | 728.3 KiB | `native/unknown` |
-| [kubecolor_0.0.25_Linux_x86_64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Linux_x86_64.tar.gz) | 789.6 KiB | `native/linux/x64` |
 
 ## 流行度
 
@@ -49,19 +49,37 @@ x install kubecolor
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-20 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-## 代码规模
+## Release 资产
 
-合计: **3,369** 行代码（覆盖前 5 种语言、共 **47** 个文件）。
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [checksums.txt](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/checksums.txt) | 516 B | `other` |
+| [kubecolor_0.0.25_Darwin_arm64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Darwin_arm64.tar.gz) | 793.4 KiB | `native/darwin/arm64` |
+| [kubecolor_0.0.25_Darwin_x86_64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Darwin_x86_64.tar.gz) | 814.5 KiB | `native/darwin/x64` |
+| [kubecolor_0.0.25_Linux_arm64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Linux_arm64.tar.gz) | 734.5 KiB | `native/linux/arm64` |
+| [kubecolor_0.0.25_Linux_ppc64le.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Linux_ppc64le.tar.gz) | 728.3 KiB | `native/unknown` |
+| [kubecolor_0.0.25_Linux_x86_64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Linux_x86_64.tar.gz) | 789.6 KiB | `native/linux/x64` |
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 3,292 | 186 | 363 | 40 |
-| Yaml | 68 | 0 | 1 | 5 |
-| Makefile | 9 | 0 | 2 | 1 |
-| Markdown | 0 | 123 | 77 | 1 |
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/kubecolor) 上共有 **41** 个发行版报告此项目。**5** 个 ✅ 已是最新上游版本，**35** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.0.20` | ⚠️ outdated |
+| Debian 14 | `0.0.20` | ⚠️ outdated |
+| Debian 13 | `0.0.20` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.0.20` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.0.20` | ⚠️ outdated |
+| Homebrew | `0.7.1` | ✅ latest |
+| Nix unstable | `0.7.1` | ✅ latest |
+| openSUSE Tumbleweed | `0.7.1` | ✅ latest |
 
 ## 改进这些数据
 
@@ -72,4 +90,4 @@ kubecolor 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:59:58Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:38:28Z._
