@@ -6,7 +6,7 @@
 
 colorizes kubectl output
 
-![kubecolor](https://repo.x-cmd.io/kubecolor.svg)
+![kubecolor](https://repo.x-cmd.io/kubecolor.svg?lang=zh)
 
 ## 安装
 
@@ -24,7 +24,17 @@ x install kubecolor
 - **最新版本**: `v0.0.25` (2022-12-31)
 - **最近提交**: 2022-12-31
 - **Release 含资产**: 6 个
-- **发布时间**: 2022-12-31T09:32:04Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [checksums.txt](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/checksums.txt) | 516 B | `other` |
+| [kubecolor_0.0.25_Darwin_arm64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Darwin_arm64.tar.gz) | 793.4 KiB | `native/darwin/arm64` |
+| [kubecolor_0.0.25_Darwin_x86_64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Darwin_x86_64.tar.gz) | 814.5 KiB | `native/darwin/x64` |
+| [kubecolor_0.0.25_Linux_arm64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Linux_arm64.tar.gz) | 734.5 KiB | `native/linux/arm64` |
+| [kubecolor_0.0.25_Linux_ppc64le.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Linux_ppc64le.tar.gz) | 728.3 KiB | `native/unknown` |
+| [kubecolor_0.0.25_Linux_x86_64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Linux_x86_64.tar.gz) | 789.6 KiB | `native/linux/x64` |
 
 ## 流行度
 
@@ -62,4 +72,4 @@ kubecolor 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:10:57Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:59:58Z._

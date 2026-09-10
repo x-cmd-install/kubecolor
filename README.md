@@ -24,7 +24,17 @@ x install kubecolor
 - **Latest**: `v0.0.25` (2022-12-31)
 - **Last commit**: 2022-12-31
 - **Assets in release**: 6
-- **Published**: 2022-12-31T09:32:04Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [checksums.txt](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/checksums.txt) | 516 B | `other` |
+| [kubecolor_0.0.25_Darwin_arm64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Darwin_arm64.tar.gz) | 793.4 KiB | `native/darwin/arm64` |
+| [kubecolor_0.0.25_Darwin_x86_64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Darwin_x86_64.tar.gz) | 814.5 KiB | `native/darwin/x64` |
+| [kubecolor_0.0.25_Linux_arm64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Linux_arm64.tar.gz) | 734.5 KiB | `native/linux/arm64` |
+| [kubecolor_0.0.25_Linux_ppc64le.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Linux_ppc64le.tar.gz) | 728.3 KiB | `native/unknown` |
+| [kubecolor_0.0.25_Linux_x86_64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Linux_x86_64.tar.gz) | 789.6 KiB | `native/linux/x64` |
 
 ## Popularity
 
@@ -58,8 +68,8 @@ Total: **3,369** lines of code across **47** files in the top 5 languages.
 Install metadata for kubecolor lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `kubecolor` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/kubecolor.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/kubecolor.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:10:57Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:59:58Z._
