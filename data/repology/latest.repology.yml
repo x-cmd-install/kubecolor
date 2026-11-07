@@ -1,3 +1,73 @@
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: kubecolor
+  binnames:
+    - kubecolor
+  visiblename: kubecolor
+  version: 0.0.20
+  origversion: 0.0.20-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ssgelm@debian.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: kubecolor
+  binnames:
+    - kubecolor
+  visiblename: kubecolor
+  version: 0.0.20
+  origversion: 0.0.20-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ssgelm@debian.org
+  categories:
+    - golang
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: kubecolor
+  binnames:
+    - kubecolor
+  visiblename: kubecolor
+  version: 0.0.20
+  origversion: 0.0.20-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ssgelm@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: kubecolor
+  binnames:
+    - kubecolor
+  visiblename: kubecolor
+  version: 0.0.20
+  origversion: 0.0.20-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ssgelm@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: kubecolor
+  binnames:
+    - kubecolor
+  visiblename: kubecolor
+  version: 0.0.20
+  origversion: 0.0.20-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ssgelm@debian.org
+  categories:
+    - misc
 - repo: aur
   srcname: kubecolor
   binname: kubecolor
@@ -114,20 +184,6 @@
   visiblename: kubecolor
   version: 0.0.9
   origversion: 0.0.9-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ssgelm@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: kubecolor
-  binnames:
-    - kubecolor
-  visiblename: kubecolor
-  version: 0.0.20
-  origversion: 0.0.20-2
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
@@ -327,62 +383,6 @@
     - ssgelm@debian.org
   categories:
     - golang
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: kubecolor
-  binnames:
-    - kubecolor
-  visiblename: kubecolor
-  version: 0.0.20
-  origversion: 0.0.20-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ssgelm@debian.org
-  categories:
-    - golang
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: kubecolor
-  binnames:
-    - kubecolor
-  visiblename: kubecolor
-  version: 0.0.20
-  origversion: 0.0.20-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ssgelm@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: kubecolor
-  binnames:
-    - kubecolor
-  visiblename: kubecolor
-  version: 0.0.20
-  origversion: 0.0.20-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ssgelm@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: kubecolor
-  binnames:
-    - kubecolor
-  visiblename: kubecolor
-  version: 0.0.20
-  origversion: 0.0.20-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ssgelm@debian.org
-  categories:
-    - misc
 - repo: scoop
   subrepo: main
   binname: kubecolor
@@ -403,20 +403,6 @@
   maintainers:
     - applejag@github
 - repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: kubecolor
-  binnames:
-    - kubecolor
-  visiblename: kubecolor
-  version: 0.0.20
-  origversion: 0.0.20-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ssgelm@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
   subrepo: jammy-updates/universe
   srcname: kubecolor
   binnames:
@@ -427,6 +413,20 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - ssgelm@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: kubecolor
+  binnames:
+    - kubecolor
+  visiblename: kubecolor
+  version: 0.0.20
+  origversion: 0.0.20-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - ssgelm@debian.org
   categories:
     - universe/misc
@@ -502,6 +502,20 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: kubecolor
+  binnames:
+    - kubecolor
+  visiblename: kubecolor
+  version: 0.0.20
+  origversion: 0.0.20-2build2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ssgelm@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: kubecolor
   binnames:
     - kubecolor
