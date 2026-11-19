@@ -38,7 +38,7 @@ Total: **3,369** lines of code across **47** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,438 · **Forks**: 104 · **Open issues**: 55 · **Contributors**: 14
+- **Stars**: 1,437 · **Forks**: 104 · **Open issues**: 55 · **Contributors**: 14
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **3,369** lines of code across **47** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-18 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-19 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-21 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-22 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-27 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-23 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-24 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-29 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -66,6 +66,21 @@ Total: **3,369** lines of code across **47** files in the top 5 languages.
 | [kubecolor_0.0.25_Linux_ppc64le.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Linux_ppc64le.tar.gz) | 728.3 KiB | `native/unknown` |
 | [kubecolor_0.0.25_Linux_x86_64.tar.gz](https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Linux_x86_64.tar.gz) | 789.6 KiB | `native/linux/x64` |
 
+## Distribution status
+
+Reported by **40** distros on [repology.org](https://repology.org/project/kubecolor). **6** are ✅ on the latest upstream release, **33** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.0.20` | ⚠️ outdated |
+| Debian 14 | `0.0.20` | ⚠️ outdated |
+| Debian 13 | `0.0.20` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.0.20` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.0.20` | ⚠️ outdated |
+| Homebrew | `0.8.0` | ✅ latest |
+| Nix unstable | `0.8.0` | ✅ latest |
+| openSUSE Tumbleweed | `0.8.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for kubecolor lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `kubecolor` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -75,4 +90,4 @@ Install metadata for kubecolor lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T10:24:51Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T07:48:19Z._
