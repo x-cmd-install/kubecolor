@@ -1,80 +1,10 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: kubecolor
-  binnames:
-    - kubecolor
-  visiblename: kubecolor
-  version: 0.0.20
-  origversion: 0.0.20-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ssgelm@debian.org
-  categories:
-    - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: kubecolor
-  binnames:
-    - kubecolor
-  visiblename: kubecolor
-  version: 0.0.20
-  origversion: 0.0.20-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ssgelm@debian.org
-  categories:
-    - golang
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: kubecolor
-  binnames:
-    - kubecolor
-  visiblename: kubecolor
-  version: 0.0.20
-  origversion: 0.0.20-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ssgelm@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: kubecolor
-  binnames:
-    - kubecolor
-  visiblename: kubecolor
-  version: 0.0.20
-  origversion: 0.0.20-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ssgelm@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: kubecolor
-  binnames:
-    - kubecolor
-  visiblename: kubecolor
-  version: 0.0.20
-  origversion: 0.0.20-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - ssgelm@debian.org
-  categories:
-    - misc
 - repo: aur
   srcname: kubecolor
   binname: kubecolor
   visiblename: kubecolor
-  version: 0.6.0
-  origversion: 0.6.0-1
-  status: outdated
+  version: 0.9.0
+  origversion: 0.9.0-1
+  status: newest
   summary: Colorize your kubectl output
   maintainers:
     - nogweii@aur
@@ -86,10 +16,23 @@
   visiblename: kubecolor-bin
   version: 0.8.0
   origversion: 0.8.0-5
-  status: newest
+  status: outdated
   summary: A tool to colorize the output of kubectl commands
   maintainers:
     - jonathanio@aur
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: kubecolor
+  visiblename: kubecolor
+  version: 0.5.3
+  origversion: null
+  status: outdated
+  summary: Colorizes kubectl output
+  maintainers:
+    - ivankovnatsky@github
+    - sandro.jaeckel@gmail.com
+    - applejag.luminance905@passmail.com
   licenses:
     - MIT
 - repo: debian_11
@@ -190,10 +133,24 @@
     - ssgelm@debian.org
   categories:
     - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: kubecolor
+  binnames:
+    - kubecolor
+  visiblename: kubecolor
+  version: 0.0.20
+  origversion: 0.0.20-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ssgelm@debian.org
+  categories:
+    - misc
 - repo: homebrew
   srcname: kubecolor
   visiblename: kubecolor
-  version: 0.8.0
+  version: 0.9.0
   origversion: null
   status: newest
   summary: Colorize your kubectl output
@@ -272,19 +229,6 @@
     - applejag.luminance905@passmail.com
   licenses:
     - MIT
-- repo: nix_stable_25_11
-  srcname: kubecolor
-  visiblename: kubecolor
-  version: 0.5.3
-  origversion: null
-  status: outdated
-  summary: Colorizes kubectl output
-  maintainers:
-    - ivankovnatsky@github
-    - sandro.jaeckel@gmail.com
-    - applejag.luminance905@passmail.com
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: kubecolor
   visiblename: kubecolor
@@ -303,7 +247,7 @@
   visiblename: kubecolor
   version: 0.8.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Colorizes kubectl output
   maintainers:
     - ivankovnatsky@github
@@ -321,7 +265,7 @@
   visiblename: kubecolor
   version: 0.8.0
   origversion: 0.8.0-1.1
-  status: newest
+  status: outdated
   summary: Colorize your kubectl output
   licenses:
     - MIT
@@ -342,7 +286,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: kubecolor
   binnames:
     - kubecolor
@@ -356,7 +300,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: kubecolor
   binnames:
     - kubecolor
@@ -383,11 +327,67 @@
     - ssgelm@debian.org
   categories:
     - golang
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: kubecolor
+  binnames:
+    - kubecolor
+  visiblename: kubecolor
+  version: 0.0.20
+  origversion: 0.0.20-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ssgelm@debian.org
+  categories:
+    - golang
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: kubecolor
+  binnames:
+    - kubecolor
+  visiblename: kubecolor
+  version: 0.0.20
+  origversion: 0.0.20-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ssgelm@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: kubecolor
+  binnames:
+    - kubecolor
+  visiblename: kubecolor
+  version: 0.0.20
+  origversion: 0.0.20-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ssgelm@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: kubecolor
+  binnames:
+    - kubecolor
+  visiblename: kubecolor
+  version: 0.0.20
+  origversion: 0.0.20-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - ssgelm@debian.org
+  categories:
+    - misc
 - repo: scoop
   subrepo: main
   binname: kubecolor
   visiblename: kubecolor
-  version: 0.8.0
+  version: 0.9.0
   origversion: null
   status: newest
   licenses:
@@ -396,26 +396,12 @@
   srcname: kubecolor
   binname: kubecolor
   visiblename: kubecolor
-  version: 0.8.0
+  version: 0.9.0
   origversion: null
   status: newest
   summary: Colorize your kubectl output
   maintainers:
     - applejag@github
-- repo: ubuntu_22_04
-  subrepo: jammy-updates/universe
-  srcname: kubecolor
-  binnames:
-    - kubecolor
-  visiblename: kubecolor
-  version: 0.0.20
-  origversion: 0.0.20-1ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - ssgelm@debian.org
-  categories:
-    - universe/misc
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: kubecolor
@@ -427,6 +413,20 @@
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
+    - ssgelm@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/universe
+  srcname: kubecolor
+  binnames:
+    - kubecolor
+  visiblename: kubecolor
+  version: 0.0.20
+  origversion: 0.0.20-1ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - ssgelm@debian.org
   categories:
     - universe/misc
